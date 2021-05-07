@@ -35,7 +35,6 @@ form.addEventListener("submit",e=>{
             con.value="";
 
         });
-
         btnCerrarPopup.addEventListener('click', function(e){
             e.preventDefault();
             overlay.classList.remove('active');
